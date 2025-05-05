@@ -51,3 +51,8 @@ variable "instance_name" {
   description = "Name tag for the EC2 instance"
   default     = "my-ec2"
 }
+
+variable "bucket_name" {
+  description = "Name of the S3 bucket"
+  type        = string
+}
